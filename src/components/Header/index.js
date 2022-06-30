@@ -19,32 +19,36 @@ export function Header() {
 
                 <div className="input-fake">
 
-                    <AiOutlineSearch color="#8e8e8e" size="16px" />
+                    <AiOutlineSearch color="#8e8e8e" size="20px" />
 
                     <input placeholder="Pesquisar" />
                 </div>
 
                 <div className="menu-icons">
                     <div>
-                        <AiFillHome size="18px" />
+                        <AiFillHome size="20px" />
                     </div>
                     <div>
-                        <FiSend size="18px" />
+                        <FiSend size="20px" />
                     </div>
                     <div>
-                        <BsPlusSquare size="18px" />
+                        <BsPlusSquare size="20px" />
                     </div>
                     <div>
-                        <MdOutlineExplore size="18px" />
+                        <MdOutlineExplore size="20px" />
                     </div>
                     <div>
-                        <FiHeart size="18px" />
+                        <FiHeart size="20px" />
                     </div>
 
-                    <img className="img-user" src="https://media-exp1.licdn.com/dms/image/C5603AQHgmlQu-t28pQ/profile-displayphoto-shrink_200_200/0/1646933567346?e=1661990400&v=beta&t=aBUe2f1lpHghYg6q_uu0ouGEXz3HSd2A1cjwp6KT4Wo" />
+                    <img className="img-user" src="https://media-exp1.licdn.com/dms/image/C4D03AQGWvUZl33YSqQ/profile-displayphoto-shrink_200_200/0/1656383071503?e=1661990400&v=beta&t=HHMZcvML1eM1SCBAbiUK9mWy60OwPx7LLDE-RenMASk" />
                 </div>
             </div>
 
         </header>
+
+
     )
+
+
 }
