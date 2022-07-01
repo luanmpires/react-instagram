@@ -10,9 +10,9 @@ export function Post() {
             <header className="header-post" >
 
                 <div className="infos-post" >
-                    <img className="img-header-post" src="https://github.com/maykbrito.png" />
+                    <img className="img-header-post" src="https://pbs.twimg.com/media/EgCI2kcXkAA6iD0.jpg" />
 
-                    <p>maykbrito</p>
+                    <p>neymarjr</p>
                 </div>
 
 
@@ -20,7 +20,7 @@ export function Post() {
             </header>
 
             <div className="img-post" >
-                <img src="https://github.com/maykbrito.png" />
+                <img src="https://pbs.twimg.com/media/FO0ZCYkXIAQ4gII?format=jpg&name=large" />
             </div>
 
             <div className="footer-post" >
@@ -40,12 +40,12 @@ export function Post() {
                 </IconContext.Provider>
 
                 <section className="like" >
-                    <span>212 curtidas</span>
+                    <span>9.999.999 curtidas</span>
                 </section>
 
                 <div className="legend" >
                     <p>
-                        <span>maykbrito</span> Em breve teremos promoções na rocketseat que cabem no bolso de qualquer um.
+                        <span>neymarjr</span> Eu amo a Bruna ainda e esse ano o hexa vem.
                     </p>
                 </div>
 
