@@ -1,7 +1,7 @@
 import './style.css'
 import { FiMoreHorizontal, FiSend } from 'react-icons/fi'
-import {IoMdHeartEmpty} from 'react-icons/io'
-import {BsChat, BsEmojiSmile, BsBookmark} from 'react-icons/bs'
+import { IoMdHeartEmpty } from 'react-icons/io'
+import { BsChat, BsEmojiSmile, BsBookmark } from 'react-icons/bs'
 import { IconContext } from 'react-icons/lib'
 
 export function Post() {
@@ -16,15 +16,15 @@ export function Post() {
                 </div>
 
 
-                    <FiMoreHorizontal />
+                <FiMoreHorizontal />
             </header>
 
             <div className="img-post" >
-                <img src="https://github.com/maykbrito.png"/>
+                <img src="https://github.com/maykbrito.png" />
             </div>
 
             <div className="footer-post" >
-                <IconContext.Provider value={{size: "30px"}} >
+                <IconContext.Provider value={{ size: "30px" }} >
 
                     <section className="engagement-post" >
                         <div className="icons-1" >
@@ -33,9 +33,9 @@ export function Post() {
                             <div className="icon"><FiSend /></div>
                         </div>
 
-                        
+
                         <div className="icon"><BsBookmark /></div>
-                        
+
                     </section>
                 </IconContext.Provider>
 
@@ -50,19 +50,19 @@ export function Post() {
                 </div>
 
                 <div className="time-post" >
-                    <time>HÁ 1 HORA</time>
+                    <time>HÁ 3 HORAS</time>
                 </div>
 
                 <div className="comment" >
 
                     <div className="fake-comment" >
 
-                        <IconContext.Provider value={{size: '25px'}}>
-                            <div className="icon">
-                                <BsEmojiSmile />
-                            </div>
-                            
-                        </IconContext.Provider>
+
+                        <div className="icon">
+                            <BsEmojiSmile size="25px" />
+                        </div>
+
+
 
                         <input placeholder="Adicione um comentário..." />
                     </div>

@@ -1,7 +1,7 @@
 import './style.css'
 
 
-export function Storys() {
+export function Story() {
     return (
         <div className='container'>
 
